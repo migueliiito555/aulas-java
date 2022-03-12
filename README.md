@@ -1,2 +1,2 @@
-# aulas-java
+# Java
 Exercícios e aulas de EEEP RCR.
