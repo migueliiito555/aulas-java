@@ -18,6 +18,10 @@ public class Q02 {
 
 
 
+        teclado.close();
+
+
+
         System.out.print("\n" + n1);
         if (n1 > 0) {
             System.out.print(" é positivo!");
