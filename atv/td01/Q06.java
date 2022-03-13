@@ -13,6 +13,10 @@ public class Q06 {
 
 
 
+        teclado.close();
+
+
+
         System.out.print("Digite um número: ");
         float n1 = teclado.nextFloat();
 
