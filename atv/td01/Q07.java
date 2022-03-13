@@ -24,6 +24,10 @@ public class Q07 {
 
 
 
+        teclado.close();
+
+
+
         /**
          *
          *** Método eficiente:
