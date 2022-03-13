@@ -18,6 +18,10 @@ public class Q05 {
 
 
 
+        teclado.close();
+
+
+
         System.out.print("Digita a 1ª nota: ");
         var n1 = teclado.nextFloat();
         
