@@ -24,6 +24,10 @@ public class Q08 {
 
 
 
+        teclado.close();
+
+
+
         if (p1 < p2 && p1 < p3) {
             System.out.println("Compre o de R$" + p1 + " reais.");
         }
