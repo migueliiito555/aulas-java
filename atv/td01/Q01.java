@@ -21,6 +21,10 @@ public class Q01 {
 
 
 
+        teclado.close();
+
+
+
         System.out.print("\n" + n1);
         if (n1 > n2) {
             System.out.print(" é maior que ");
