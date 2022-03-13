@@ -17,7 +17,11 @@ public class Q03 {
         String sexo = teclado.nextLine().toUpperCase();
 
 
-        
+
+        teclado.close();
+
+
+
         switch (sexo) {
             case "M":
                 System.out.println("Masculino.");
