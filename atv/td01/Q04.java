@@ -18,6 +18,10 @@ public class Q04 {
 
 
 
+        teclado.close();
+
+
+
         switch (letra) {
             case "A":
             case "E":
