@@ -30,6 +30,10 @@ public class Q19 {
 
 
 
+        teclado.close();
+
+
+
         double res = 0;
         switch (op) {
             case 1:
