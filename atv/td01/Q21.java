@@ -35,6 +35,10 @@ public class Q21 {
 
 
 
+            teclado.close();
+
+
+
             switch (comb) {
                 case "a":
                     if (litros <= 20) {
