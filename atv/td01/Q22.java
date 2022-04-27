@@ -21,6 +21,10 @@ public class Q22 {
 
 
 
+        teclado.close();
+
+
+
         System.out.println("\nMaior: " + Math.max(n1, n2) + "\nMenor: " + Math.min(n1, n2));
     }
 }
