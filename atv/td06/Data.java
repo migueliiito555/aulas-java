@@ -42,7 +42,7 @@ public class Data
                     break;
 
                 case 2:
-                    if (isBissexto(getAno()) && dia <= 29)
+                    if (isBissexto() && dia <= 29)
                     setDia(dia);
 
                     else if (dia < 29)
@@ -75,9 +75,9 @@ public class Data
 
     // Métodos
     // Verifica se o ano é bissexto.
-    public boolean isBissexto(int ano)
+    public boolean isBissexto()
     {
-        if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 4 != 0 && ano % 400 == 0))
+        if ((getAno() % 4 == 0 && getAno() % 100 != 0) || (getAno() % 4 != 0 && getAno() % 400 == 0))
         return true;
 
         else
