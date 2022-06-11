@@ -1,4 +1,4 @@
-package extra;
+package suporte;
 
 import java.text.Normalizer;
 import java.util.regex.Pattern;
@@ -7,18 +7,17 @@ public class Printer
 {
     public static void print(String s, int vezes, boolean pularLinha, boolean colorir)
     {
-        if (pularLinha)
-        System.out.println();
+        if (pularLinha) System.out.println();
 
         for (int i = 0; i <= Math.abs(vezes); i++)
-        if (colorir)
-        System.out.print(Cor.colorir(s));
-        
-        else
-        System.out.print(s);
+        {
+            if (colorir)
+            System.out.print(Cor.colorir(s));
 
-        if (pularLinha)
-        System.out.println();
+            else System.out.print(s);
+        }
+        
+        if (pularLinha) System.out.println();
     }
     
     public static String desacentuar(String s)

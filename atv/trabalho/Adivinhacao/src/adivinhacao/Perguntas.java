@@ -1,4 +1,4 @@
-package adivinhacao2;
+package adivinhacao;
 
 public class Perguntas
 {
@@ -49,6 +49,7 @@ public class Perguntas
             "08. \"Movimento de trabalhadores que se uniram e revoltaram-se contra as maquinas no principio da Revolucao Industrial. Sua acao consistia em invadir uma industria textil e promover a destruicao das maquinas que produziam as mercadorias.\"\n\nO trecho acima descreve qual movimento?",
             "09. Qual filósofo iluminista se destacou ao afirmar que o ser humano nascia bom, mas a sociedade era responsavel por torna-lo mal (Somente primeiro nome)?",
             "10. \"Processo de perseguicao e o assassinato sistematicos de 6 milhoes de judeus europeus pelo regime nazista alemao e seus aliados e colaboradores\"\n\nEsse trecho faz mencao a qual acontecimento histórico?",
+            "11. Ciro foi o primeiro grande imperador persa que promoveu a expansão do então Reino Persa. Os primeiros povos subjugados por Ciro, que antes dele dominavam o Reino Persa, eram os:",
             "12. Na regiao onde atualmente se encontra o Libano, instalou-se, no III milenio a. C., um povo semita, que passou a ocupar a estreita faixa de terra, com cerca de 200 quilômetros de comprimento, apertada entre o mar e as montanhas. Varias razoes os levaram ao comercio maritimo, merecendo destaque sua proximidade geografica com o Egito; a costa, que oferecia lugares para bons portos; e os cedros, principal riqueza, usados na construcao de navios. \nO contido nesse paragrafo refere-se a qual povo?",
             "13. A organizacao dos paises em blocos econômicos visa facilitar a economia dos paises, estimulando as trocas e a producao. Qual bloco e formado pelos paises da America do Norte, eliminando as barreiras tarifarias entre os seus membros?",
             "14. A organizacao politica da civilizacao hebraica entrou em declinio a partir do seculo X, quando profundas crises e invasoes assolaram os territórios hebreus. Tal situacao ocorreu após a morte de qual rei hebreu, no ano de 935 a.C.?",
@@ -89,13 +90,18 @@ public class Perguntas
             "01. Quantas sílabas tem a palavra BATATA?",
             "02. Qual é o plural de alemão?",
             "03. Quantas letras tem o alfabeto?",
+            "04. Qual é a fêmea do elefante?",
             "05.  A palavra \"alface\" pertence a qual classe gramatical?",
+            "06. Qual  nome da mulher do Kiko?",
             "07. Na frase \"João passou no concurso\" o sujeito é:",
             "08.  Qual é a figura de linguagem que tem o objetivo de suavizar uma notícia ruim?",
             "09. Qual o tipo de sujeito da oração \"A folha caiu no outono\"?",
+            "10. O profissional que corta cabelos é o:",
             "11. Qual o papel da conjunção COMO na oração a seguir: \"Ele chora como um bebê\"",
             "12. Que classe gramatical variável que atribui uma características ou qualidade para alguém ou alguma coisa?",
-            "15. “O relógio da parede eu estou acostumado com ele, mas você precisa mais de relógio do que eu” -Rubem Braga. Qual a figura de linguagem presenta nesta oração?"
+            "13. Qual é o plural de chapéu?",
+            "14. Como é chamado aquele que é ou foi sete vezes campeão?",
+            "15. \"O relógio da parede eu estou acostumado com ele, mas você precisa mais de relógio do que eu\" -Rubem Braga. Qual a figura de linguagem presenta nesta oração?"
         },
         { // Química
             "01. Qual o nome da mudança de estado físico quando uma substância passa de seu estado líquido para o sólido?",
@@ -163,6 +169,7 @@ public class Perguntas
             "ludista",
             "rousseau",
             "holocausto",
+            "medos",
             "versalhes",
             "fenicio",
             "nafta",
@@ -204,12 +211,17 @@ public class Perguntas
             "3",
             "alemaes",
             "26",
+            "elefanta",
             "substantivo",
+            "kika",
             "joao",
             "eufemismo",
             "simples",
+            "cabeleireiro",
             "comparativa",
             "adjetivo",
+            "chapeis",
+            "heptacampeao",
             "anacoluto"
         },
         { // Química
