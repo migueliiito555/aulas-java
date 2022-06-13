@@ -22,7 +22,8 @@ public class Adivinhacao extends Perguntas
         System.out.println(Cor.colorir("JOGO DE ADIVINHACAO") + Cor.r +
         "\n- Dica: A resposta so pode ser" + Cor.ci + " 1 palavra" + Cor.r + "." +
         "\n- Digite \"revelar\" para revelar metade da resposta." +
-        "\n- Digite \"pular\" para ir para a próxima pergunta.");
+        "\n- Digite \"pular\" para ir para a próxima pergunta." +
+        "\n- Note que no modo de 2 jogadores não há como pular!");
         
         Printer.print("*", 60, true, true);
         
@@ -37,7 +38,7 @@ public class Adivinhacao extends Perguntas
         System.out.println();
         Printer.print("*", 60, true, true);
         
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             for (int i = 0; i < 2; i++)
             {
@@ -78,19 +79,19 @@ public class Adivinhacao extends Perguntas
     private String[][] getRespostas()
     { return respostas; }
 
-    private boolean getRevelado()
+    private boolean isRevelado()
     { return revelado; }
     
-    private boolean getMultiplayer()
+    private boolean isMultiplayer()
     { return multiplayer; }
     
-    private boolean getTurno()
+    private boolean isTurno()
     { return turno; }
     
-    private boolean getErrado()
+    private boolean isErrado()
     { return errado; }
     
-    private boolean getCorreto()
+    private boolean isCorreto()
     { return correto; }
 
     private int getTema()
@@ -132,7 +133,7 @@ public class Adivinhacao extends Perguntas
     
     // Inverte o valor de "turno".
     private void alternarVez()
-    { if (getMultiplayer()) setTurno(!getTurno()); }
+    { if (isMultiplayer()) setTurno(!isTurno()); }
     
     private void avancarPergunta()
     {
@@ -152,7 +153,7 @@ public class Adivinhacao extends Perguntas
     private void pularPergunta()
     {
         // Se não está multijogador ou 
-        if (!getMultiplayer() && j[0].getPulos() > 0 && getPergAtual() != 9)
+        if (!isMultiplayer() && j[0].getPulos() > 0 && getPergAtual() != 9)
         {
             j[0].alterarPulos(-1);
             avancarPergunta();
@@ -186,7 +187,7 @@ public class Adivinhacao extends Perguntas
         System.out.println();
         Printer.print(">", 20, false, true);
         
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             if (j[0].getPontos() > j[1].getPontos())
             System.out.print(" " + j[0].getNome());
@@ -201,7 +202,7 @@ public class Adivinhacao extends Perguntas
         
         System.out.println("");
         
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             for (int i = 0; i < 2; i++)
             {
@@ -233,10 +234,10 @@ public class Adivinhacao extends Perguntas
     
     private void acertar()
     {
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             int vez = 1;
-            if (getTurno()) vez = 0;
+            if (isTurno()) vez = 0;
             
             if (j[vez].getVidas() < 5) j[vez].alterarVidas(1);
             
@@ -257,11 +258,11 @@ public class Adivinhacao extends Perguntas
     
     private void errar()
     {
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             int vez = 1;
             
-            if (getTurno()) vez = 0;
+            if (isTurno()) vez = 0;
             
             if (j[vez].getVidas() > 1)
             {
@@ -301,7 +302,7 @@ public class Adivinhacao extends Perguntas
         Printer.print("*", 60, true, true);
         
         // Se multijogador, revela os pontos e as vidas.
-        if (getMultiplayer())
+        if (isMultiplayer())
         {
             System.out.println("Pontos:");
             System.out.println(Cor.nvr + j[0].getNome() + ": " + Cor.az + j[0].getPontos() + Cor.r);
@@ -314,7 +315,7 @@ public class Adivinhacao extends Perguntas
             System.out.print("\nAgora e a vez de: ");
             
             
-            if (getTurno())
+            if (isTurno())
             System.out.print(Cor.nvr + j[0].getNome() + "\n\n" + Cor.r);
             
             else
@@ -343,7 +344,7 @@ public class Adivinhacao extends Perguntas
         }
 
         // Revela metade da resposta caso o usuario tenha digitado "revelar".
-        if (getRevelado())
+        if (isRevelado())
         {
             System.out.println();
             revelarMeiaPalavra();
@@ -351,10 +352,10 @@ public class Adivinhacao extends Perguntas
         }
         
         // Se a resposta está incorreta.
-        if (getErrado())
+        if (isErrado())
         {
             // Se multiplayer.
-            if (getMultiplayer())
+            if (isMultiplayer())
             System.out.println(Cor.nvr + "\n\n-01" + Cor.r + " vida");
 
             // Ou solo.
@@ -365,16 +366,16 @@ public class Adivinhacao extends Perguntas
         }
         
         // Ou correta.
-        else if (getCorreto())
+        else if (isCorreto())
         {
             System.out.println("\n");
             
             // Se multiplayer
-            if (getMultiplayer())
+            if (isMultiplayer())
             {
                 int vez = 1;
 
-                if (getTurno()) vez = 0;
+                if (isTurno()) vez = 0;
 
                 if (j[vez].getVidas() < 5)
                 System.out.println(Cor.nvd + "\n+01" + Cor.r + " vida");
