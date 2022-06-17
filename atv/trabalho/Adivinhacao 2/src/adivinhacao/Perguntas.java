@@ -2,60 +2,42 @@ package adivinhacao;
 
 public class Perguntas
 {
-    public final String[][] perguntas =
+    public String[][] perguntas =
     {
         { // Biologia
-            "01. Qual órgão do sistema urinário masculino é responsável por conduzir a urina da bexiga para fora do corpo:",
+            "01. Qual órgão do sistema urinário masculino é responsável por conduzir a urina da bexiga para fora do corpo?",
             "02. O nosso DNA, diferentemente do que muitos pensam, não está presente em apenas um cromossomo. Em cada espécie, há um número diferente dessas estruturas, sendo encontrado na espécie humana um conjunto com:",
             "03. A vitamina (X) é produzida pelo próprio organismo, com o auxílio da luz solar e interage com hormônios que regulam a quantidade de cálcio no organismo. Quando uma pessoa se expõe ao sol, os raios ultravioletas são absorvidos e atuam com o colesterol, transformando-o num precursor da vitamina (X). Pode ser encontrada em alimentos como fígado, gema de ovos e óleos de peixe. Sua deficiência causa o raquitismo, tanto em crianças como em adultos. A vitamina (X) à qual o texto se refere é a:",
             "04. (UFT) O principal órgão respiratório em peixes é:",
-            "05. Uma alimentação adequada é aquela que inclui todos os nutrientes necessários para o funcionamento do nosso corpo. Entre os nutrientes que nos fornecem energia, podemos citar:",
+            "05. Uma alimentação adequada é aquela que inclui todos os nutrientes necessários para o funcionamento do nosso corpo. Entre os nutrientes que nos fornecem energia, aquele que mais fornece o organismo nesse quesito é:",
             "06. (Fatec-SP) Um organismo unicelular, sem núcleo diferenciado, causador de infecção em ratos, provavelmente será:",
-            "07. O esqueleto das aves apresenta uma série de adaptações que garante que elas consigam voar com mais facilidade. Uma delas é a presença de ossos ocos, chamados de ossos:",
-            "08. Qual o nome do açúcar encontrado na molécula de DNA?",
-            "09. O estudo do corpo humano possibilita sua análise em diferentes níveis. Quando estudamos um conjunto de células semelhantes que desempenham a mesma função estamos analisando um:",
-            "10. Os anfíbios anuros apresentam uma metamorfose bastante marcante, diferentemente dos outros anfíbios. Cite um com anfíbio anuro que possui apenas 2 letras no nome:",
-            "11. (Unifor-CE) As fibras musculares estriadas armazenam um carboidrato a partir do qual se obtém energia para a contração. Essa substância de reserva se encontra na forma de:",
-            "12. A célula vegetal e a célula animal, apesar de tratarem-se de células eucariontes, apresentam algumas diferenças. Na célula vegetal, por exemplo, observa-se a presença de uma estrutura que pode ocupar até 90% do seu espaço celular e garante, entre outras funções, o equilíbrio osmótico da célula. Essa estrutura é chamada de:",
-            "13. Alguns fungos microscópicos e unicelulares são utilizados amplamente no processo de fermentação. Um exemplo é a espécie Saccharomyces cereviseae, que é usada para produzir cerveja. Os fungos unicelulares, microscópicos e que vivem em colônias são chamados de:",
-            "14. (PAS – UFLA/2019) A matriz extracelular é constituída por substâncias localizadas entre as células de um tecido e que preenchem o espaço entre elas. Essa matriz é fundamental para a realização das funções teciduais e é produzida pelas suas próprias células. A maior quantidade de matriz extracelular é observada no tecido _________.",
-            "15. (Fuvest-SP) Células de certos organismos produzem organelas que produzem ATPs e os utilizam na síntese de substância orgânica a partir de dióxido de carbono. Essas organelas são:"
+            "07. Qual o nome do açúcar encontrado na molécula de DNA?",
+            "08. A célula vegetal e a célula animal, apesar de tratarem-se de células eucariontes, apresentam algumas diferenças. Na célula vegetal, por exemplo, observa-se a presença de uma estrutura que pode ocupar até 90% do seu espaço celular e garante, entre outras funções, o equilíbrio osmótico da célula. Essa estrutura é chamada de:",
+            "09. O estudo do corpo humano possibilita sua análise em diferentes níveis. Quando estudamos um conjunto de células semelhantes que desempenham a mesma função estamos analisando um:"
         },
         { // Geografia
-            "01. Terceiro pais que faz parte do BRICS:",
-            "02. Processo de interligacao economica, politica, social e cultural, em nivel global:",
+            "01. Terceiro país que faz parte do BRICS:",
+            "02. Processo de interligação econômica, política, social e cultural, em nível global:",
             "03. Nome dado a quantidade de vapor de agua presente na atmosfera:",
-            "04. Distancia ao equador medida ao longo do meridiano de Greenwich:",
-            "05. Capital da Alemanha:",
-            "06. Camada da atmosfera mais proxima do espaco:",
+            "04. Capital da Alemanha:",
+            "05. Distância ao equador medida ao longo do meridiano de Greenwich:",
+            "06. Camada da atmosfera mais próxima do espaço:",
             "07. Camada mais baixa da atmosfera terrestre:",
-            "08. Nome dado ao fenomeno no qual a lava e expelida em direcao a superficie:",
-            "09. A area _____ e composta por um nucleo urbano densamente povoado e por suas areas vizinhas.",
-            "10. Ilhas de ___ sao caracterizadas pelas maiores temperaturas nas cidades em relacao a zona rural.",
-            "11. Migracao caracterizada pelos  deslocamentos diarios dos individuos para realizar acoes de sua vida cotidiana",
-            "12. Aparelho que registra os movimentos do solo:",
-            "13. ______   e tudo aquilo que os sentidos humanos (tato, audicao, olfato, visao) podem captar.",
-            "14. Tipo de paisagem formada pela acao transformadora das atividades humanas e pelos elementos naturais modificados.",
-            "15. Material que impulsionou a revolucao industrial na inglaterra."
+            "08. Nome dado ao fenômeno no qual a lava é expelida em direção a superfície:",
+            "09. A área _____________ é composta por um núcleo urbano densamente povoado e por suas áreas vizinhas. Que palavra preenche a lacuna?"
         },
         { // História
             "01. Em qual ano o Brasil foi descoberto?",
-            "02. Que tipo de governo priorizava a concentracao dos poderes na mao do rei?",
-            "03. Os povos mesopotâmicos eram politeistas ou monoteistas?",
-            "04. A mais antiga lingua escrita, chamada de escrita cuneiforme, foi desenvolvida cerca de 3000 a.C. por qual povo?",
-            "05. Um dos motivos que contribuiram para que Eduardo III reivindicasse o trono frances após a morte de Carlos IV e que dariam inicio à Guerra dos Cem Anos foi a necessidade de ocupar uma rica regiao de comercio e manufaturas no continente Europeu. Que regiao era essa?",
-            "06. \"O acumulo de capitais, a modernizacao da agricultura, a disponibilidade de mao de obra e de recursos naturais e a forca do puritanismo ajudam a explicar o pioneirismo da _ _ _ _ _ _ _ _ _ _ na Revolucao Industrial\"\n\nQual pais que melhor preenche o espaco acima?",
-            "07. \"Concentrou-se na industria do aco, automobilistica e utilizacao da eletricidade em larga escala\"\n\nDe qual Revolucao Industrial esse trecho se refere?\"",
-            "08. \"Movimento de trabalhadores que se uniram e revoltaram-se contra as maquinas no principio da Revolucao Industrial. Sua acao consistia em invadir uma industria textil e promover a destruicao das maquinas que produziam as mercadorias.\"\n\nO trecho acima descreve qual movimento?",
-            "09. Qual filósofo iluminista se destacou ao afirmar que o ser humano nascia bom, mas a sociedade era responsavel por torna-lo mal (Somente primeiro nome)?",
-            "10. \"Processo de perseguicao e o assassinato sistematicos de 6 milhoes de judeus europeus pelo regime nazista alemao e seus aliados e colaboradores\"\n\nEsse trecho faz mencao a qual acontecimento histórico?",
-            "11. Ciro foi o primeiro grande imperador persa que promoveu a expansão do então Reino Persa. Os primeiros povos subjugados por Ciro, que antes dele dominavam o Reino Persa, eram os:",
-            "12. Na regiao onde atualmente se encontra o Libano, instalou-se, no III milenio a. C., um povo semita, que passou a ocupar a estreita faixa de terra, com cerca de 200 quilômetros de comprimento, apertada entre o mar e as montanhas. Varias razoes os levaram ao comercio maritimo, merecendo destaque sua proximidade geografica com o Egito; a costa, que oferecia lugares para bons portos; e os cedros, principal riqueza, usados na construcao de navios. \nO contido nesse paragrafo refere-se a qual povo?",
-            "13. A organizacao dos paises em blocos econômicos visa facilitar a economia dos paises, estimulando as trocas e a producao. Qual bloco e formado pelos paises da America do Norte, eliminando as barreiras tarifarias entre os seus membros?",
-            "14. A organizacao politica da civilizacao hebraica entrou em declinio a partir do seculo X, quando profundas crises e invasoes assolaram os territórios hebreus. Tal situacao ocorreu após a morte de qual rei hebreu, no ano de 935 a.C.?",
-            "15. Com o declinio do mundo feudal, as relacoes comerciais aumentaram e a necessidade de expandir os mercados consumidores tambem. Comecaram, entao, a expansao comercial e a busca de metais preciosos no mundo. Qual o nome dessa pratica econômica?"
+            "02. Que tipo de governo priorizava a concentração dos poderes na mão do rei?",
+            "03. Os povos mesopotâmicos eram politeístas ou monoteístas?",
+            "04. A mais antiga língua escrita, chamada de escrita cuneiforme, foi desenvolvida cerca de 3000 a.C. por qual povo?",
+            "05. Um dos motivos que contribuíram para que Eduardo III reivindicasse o trono francês após a morte de Carlos IV e que dariam início à Guerra dos Cem Anos foi a necessidade de ocupar uma rica região de comércio e manufaturas no continente Europeu. Que região era essa?",
+            "06. \"O acúmulo de capitais, a modernização da agricultura, a disponibilidade de mão de obra e de recursos naturais e a força do puritanismo ajudam a explicar o pioneirismo da __________ na Revolução Industrial\". Qual país que melhor preenche o espaço acima?",
+            "07. \"Concentrou-se na indústria do aço, automobilística e utilização da eletricidade em larga escala\". De qual Revolução Industrial esse trecho se refere?",
+            "08. \"Movimento de trabalhadores que se uniram e revoltaram-se contra as máquinas no princípio da Revolução Industrial. Sua ação consistia em invadir uma indústria têxtil e promover a destruição das máquinas que produziam as mercadorias\". O trecho descreve qual movimento?",
+            "09. Qual filósofo iluminista se destacou ao afirmar que o ser humano nascia bom, mas a sociedade era responsável por torná-lo mal (Somente primeiro nome)?"
         },
-        { // Ingles
+        { // Inglês
             "01. Qual o negativo correto: Mark ______ help at home.",
             "02. I __ Brazilian and I live in Curitiba.",
             "03. ___ you talking to me?",
@@ -64,44 +46,29 @@ public class Perguntas
             "06. The Olympic Games _______ every four years.",
             "07. Passe a palavra HAVE para o negativo da forma correta.",
             "08. Passe a palavra HAS para o negativo correto.",
-            "09. Complete com o adjetivo possessivo correto: Christina doesn't like to play with ___ cousins.",
-            "10. Complete com o adjetivo possessivo correto: The car is good, but it has ___ problems.",
-            "11. Qual a percepção presente na frase \"I’d rather you fixed my car\"?",
-            "12. Qual o sentido da palavra \"left\" na frase \"You still have a patch of hair left on your leg\"?"
+            "09. Complete com o adjetivo possessivo correto: Christina doesn't like to play with ___ cousins."
         },
         { // Matemática
             "01. Quantos algarismos possui o sistema numérico indo-arábico?",
             "02. A decomposição de um número é 20000 + 3000 + 700 + 1. Que número é esse?",
             "03. Gabriel foi fazer compras no mercado, e viu 5 casas à sua direita, na volta viu 5 à esquerda. Quantas casas Gabriel viu no total?",
             "04. Quanto é DLXVIII no sistema numérico indo-arábico?",
-            "05. Vitória foi comprar frutas por 75% de desconto, sendo que ela levou 10 maçãs no preço de R$ 4,00 cada. Qual foi o saldo de Vitória no fim dessa compra?",
-            "06. Qual o único número que ao ser multiplicado por qualquer outro inteiro irá gerar um número cujo o último algarismo só poderá ser dois possíveis algarismos?",
-            "07. Quantos anagramas é possível formar com a palavra \"MACACO\"?",
-            "08. Se 1/5 de uma baleia equivale a 8/3 de uma pessoa de 57kq, quanto pesa 3/4 da baleia (em gramas)?",
-            "09. Clara se atrasou para a entrega de uma pizza, pois ela foi subir na moto, mas o pneu estava furado. Clara deveria ter saído às 15h, porém saiu às 16h34min e entregou a pizza, com sorte, no horário, às 17h. Quantos segundos Clara se atrasou para ir entregar a pizza?",
-            "10. {73 + [127 ÷ (12 × 87 - 59⁵)] × 0} - 55 - 17; Qual o resultado desta expressão numérica?\"",
-            "11. Um número elevado à segunda potência somado de noventa vezes este número equivale à oitenta e sete. Qual o 1º possível valor deste número?",
-            "12. Para medir o tamanho de uma piscina, Érika mediu de um ponto até outro, de forma que formasse o maior segmento de reta possível, e resultou em 155m. A profundidade da piscina é de 2,85m. Quantos litros de água são necessários para encher até 57% da piscina?",
-            "13. Sara está devendo R$ 15.000,00 para um banco estrangeiro, pois queria viajar mas estava sem dinheiro para ir às compras, então decidiu pedir um empréstimo. Por cada mês que deve, aumenta 15%, e ela já está devendo a 1 ano e 7 meses. Qual é a dívida total de Sara?",
-            "14. Em 24s, um carro percorre à 7m/s o perímetro de um prédio de base quadrada cuja as retas formadas pelo carro estão em paralelo com as arestas da base do prédio, com 10m de distância. Qual o tamanho da área do quadrado que o carro formou, sem contar com o prédio?",
-            "15. Cláudia estava admirando as estrelas e notou que uma estava se movendo rapidamente, ela então percebe que se tratava de uma estrela cadente. Depois de pesquisar, era o famigerado cometa Halley, que havia mudado seu percurso e estava em direção a casa dela. Quanto tempo, em segundos, Cláudia tinha para evacuar, sabendo que a velocidade do cometa era constante e de 59m/s, além de que estava à 73,75km de distância da superfície terrestre?"
+            "05. Qual o único número que ao ser multiplicado por qualquer outro inteiro irá gerar um número cujo o último algarismo só poderá ser dois possíveis algarismos?",
+            "06. Quantos anagramas é possível formar com a palavra \"MACACO\"?",
+            "07. Se 1/5 de uma baleia equivale a 8/3 de uma pessoa de 57kq, quanto pesa 3/4 da baleia (em gramas)?",
+            "08. Clara se atrasou para a entrega de uma pizza, pois ela foi subir na moto, mas o pneu estava furado. Clara deveria ter saído às 15h, porém saiu às 16h34min e entregou a pizza, com sorte, no horário, às 17h. Quantos segundos Clara se atrasou para ir entregar a pizza?",
+            "09. Sara está devendo R$ 15.000,00 para um banco estrangeiro, pois queria viajar mas estava sem dinheiro para ir às compras, então decidiu pedir um empréstimo. Por cada mês que deve, aumenta 15%, e ela já está devendo a 1 ano e 7 meses. Qual é a dívida total de Sara?"
         },
         { // Português
-            "01. Quantas sílabas tem a palavra BATATA?",
-            "02. Qual é o plural de alemão?",
-            "03. Quantas letras tem o alfabeto?",
-            "04. Qual é a fêmea do elefante?",
-            "05.  A palavra \"alface\" pertence a qual classe gramatical?",
-            "06. Qual  nome da mulher do Kiko?",
-            "07. Na frase \"João passou no concurso\" o sujeito é:",
-            "08.  Qual é a figura de linguagem que tem o objetivo de suavizar uma notícia ruim?",
-            "09. Qual o tipo de sujeito da oração \"A folha caiu no outono\"?",
-            "10. O profissional que corta cabelos é o:",
-            "11. Qual o papel da conjunção COMO na oração a seguir: \"Ele chora como um bebê\"",
-            "12. Que classe gramatical variável que atribui uma características ou qualidade para alguém ou alguma coisa?",
-            "13. Qual é o plural de chapéu?",
-            "14. Como é chamado aquele que é ou foi sete vezes campeão?",
-            "15. \"O relógio da parede eu estou acostumado com ele, mas você precisa mais de relógio do que eu\" -Rubem Braga. Qual a figura de linguagem presenta nesta oração?"
+            "01.  A palavra \"alface\" pertence a qual classe gramatical?",
+            "02. Na frase \"João passou no concurso\" o sujeito é:",
+            "03.  Qual é a figura de linguagem que tem o objetivo de suavizar uma notícia ruim?",
+            "04. Qual o tipo de sujeito da oração \"A folha caiu no outono\"?",
+            "05. O profissional que corta cabelos é o:",
+            "06. Qual o papel da conjunção COMO na oração a seguir: \"Ele chora como um bebê\"",
+            "07. Que classe gramatical variável que atribui uma características ou qualidade para alguém ou alguma coisa?",
+            "08. Qual é o plural de chapéu?",
+            "09. Como é chamado aquele que é ou foi sete vezes campeão?"
         },
         { // Química
             "01. Qual o nome da mudança de estado físico quando uma substância passa de seu estado líquido para o sólido?",
@@ -129,91 +96,58 @@ public class Perguntas
             "46",
             "d",
             "branquias",
-            "carboidratos",
+            "carboidrato",
             "bacteria",
-            "pneumaticos",
             "desoxirribose",
-            "tecido",
-            "ra",
-            "glicogenio",
             "vacuolo",
-            "levedura",
-            "conjuntivo",
-            "cloroplastos"
+            "tecido"
         },
         { // Geografia
             "india",
             "globalizacao",
             "umidade",
-            "latitude",
             "berlim",
+            "latitude",
             "exosfera",
             "troposfera",
             "vulcanismo",
-            "metropolitana",
-            "calor",
-            "pendular",
-            "sismografo",
-            "paisagem",
-            "cultural",
-            "carvao"
+            "metropolitana"
         },
         { // História
             "1500",
-            "absolutismo",
+            "absolutista",
             "politeistas",
             "sumerios",
             "flandres",
             "inglaterra",
             "segunda",
             "ludista",
-            "rousseau",
-            "holocausto",
-            "medos",
-            "versalhes",
-            "fenicio",
-            "nafta",
-            "salomao",
-            "mercantilismo"
+            "rousseau"
         },
         { // Inglês
-            "doesnt",
+            "doesn't",
             "am",
             "are",
             "is",
-            "dont",
+            "don't",
             "happens",
-            "havent",
-            "hasnt",
-            "her",
-            "its",
-            "preferencia",
-            "restante"
+            "haven't",
+            "hasn't",
+            "her"
         },
         { // Matemática
             "10",
             "23701",
             "5",
             "568",
-            "10",
             "5",
             "180",
             "570000",
             "5640",
-            "1",
-            "-26",
-            "467",
-            "57750",
-            "1280",
-            "1250"
+            "57750"
         },
         { // Português
-            "3",
-            "alemaes",
-            "26",
-            "elefanta",
             "substantivo",
-            "kika",
             "joao",
             "eufemismo",
             "simples",
@@ -221,8 +155,7 @@ public class Perguntas
             "comparativa",
             "adjetivo",
             "chapeis",
-            "heptacampeao",
-            "anacoluto"
+            "heptacampeao"
         },
         { // Química
             "solidificacao",
@@ -233,13 +166,7 @@ public class Perguntas
             "arrhenius",
             "3",
             "16",
-            "cation",
-            "pressao",
-            "exotermico",
-            "hidrogenio",
-            "estequiometria",
-            "proust",
-            "thomson"
+            "cation"
         }
     };
 }

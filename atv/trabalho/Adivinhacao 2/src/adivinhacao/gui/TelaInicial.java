@@ -1,7 +1,9 @@
 package adivinhacao.gui;
 
-public class GUI extends javax.swing.JFrame {
-    public GUI() {
+import java.awt.Dimension;
+
+public class TelaInicial extends javax.swing.JFrame {
+    public TelaInicial() {
         initComponents();
     }
     
@@ -9,25 +11,18 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         pnl_tela_inicial = new javax.swing.JPanel();
-        lbl_titulo = new javax.swing.JLabel();
         btn_mult = new javax.swing.JButton();
         btn_play = new javax.swing.JButton();
+        pnl_titulo = new javax.swing.JPanel();
+        lbl_titulo = new javax.swing.JLabel();
+        cb_tema = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Jogo da Adivinhação");
+        setTitle("Adivinhando");
         setMinimumSize(new java.awt.Dimension(800, 600));
 
         pnl_tela_inicial.setBackground(new java.awt.Color(51, 51, 51));
         pnl_tela_inicial.setForeground(new java.awt.Color(0, 0, 0));
-
-        lbl_titulo.setBackground(new java.awt.Color(0, 0, 0));
-        lbl_titulo.setFont(new java.awt.Font("Tw Cen MT", 1, 48)); // NOI18N
-        lbl_titulo.setForeground(new java.awt.Color(255, 255, 51));
-        lbl_titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_titulo.setText("Jogo da Adivinhação");
-        lbl_titulo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        lbl_titulo.setRequestFocusEnabled(false);
-        lbl_titulo.setVerifyInputWhenFocusTarget(false);
 
         btn_mult.setForeground(new java.awt.Color(204, 255, 255));
         btn_mult.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mult/mult_stand.png"))); // NOI18N
@@ -56,36 +51,66 @@ public class GUI extends javax.swing.JFrame {
         btn_play.setRequestFocusEnabled(false);
         btn_play.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/play/play_hover.png"))); // NOI18N
         btn_play.setVerifyInputWhenFocusTarget(false);
-        btn_play.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_playActionPerformed(evt);
-            }
-        });
+
+        pnl_titulo.setOpaque(false);
+
+        lbl_titulo.setBackground(new java.awt.Color(0, 0, 0));
+        lbl_titulo.setFont(new java.awt.Font("Tw Cen MT", 1, 48)); // NOI18N
+        lbl_titulo.setForeground(new java.awt.Color(255, 255, 51));
+        lbl_titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_titulo.setText("Jogo da Adivinhação");
+        lbl_titulo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        lbl_titulo.setRequestFocusEnabled(false);
+        lbl_titulo.setVerifyInputWhenFocusTarget(false);
+
+        cb_tema.setBackground(new java.awt.Color(204, 204, 204));
+        cb_tema.setFont(new java.awt.Font("Tw Cen MT", 0, 24)); // NOI18N
+        cb_tema.setForeground(new java.awt.Color(51, 51, 51));
+        cb_tema.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Biologia", "Geografia", "História", "Inglês", "Matemática", "Português", "Química" }));
+        cb_tema.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102), 2));
+        cb_tema.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        javax.swing.GroupLayout pnl_tituloLayout = new javax.swing.GroupLayout(pnl_titulo);
+        pnl_titulo.setLayout(pnl_tituloLayout);
+        pnl_tituloLayout.setHorizontalGroup(
+            pnl_tituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(lbl_titulo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(pnl_tituloLayout.createSequentialGroup()
+                .addComponent(cb_tema, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        pnl_tituloLayout.setVerticalGroup(
+            pnl_tituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnl_tituloLayout.createSequentialGroup()
+                .addComponent(lbl_titulo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(cb_tema, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         javax.swing.GroupLayout pnl_tela_inicialLayout = new javax.swing.GroupLayout(pnl_tela_inicial);
         pnl_tela_inicial.setLayout(pnl_tela_inicialLayout);
         pnl_tela_inicialLayout.setHorizontalGroup(
             pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnl_tela_inicialLayout.createSequentialGroup()
-                .addContainerGap(189, Short.MAX_VALUE)
-                .addGroup(pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnl_tela_inicialLayout.createSequentialGroup()
                         .addComponent(btn_play)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(238, 238, 238)
                         .addComponent(btn_mult))
-                    .addComponent(lbl_titulo))
-                .addContainerGap(189, Short.MAX_VALUE))
+                    .addComponent(pnl_titulo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnl_tela_inicialLayout.setVerticalGroup(
             pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnl_tela_inicialLayout.createSequentialGroup()
-                .addContainerGap(117, Short.MAX_VALUE)
-                .addComponent(lbl_titulo)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 209, Short.MAX_VALUE)
-                .addGroup(pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn_mult)
-                    .addComponent(btn_play))
-                .addContainerGap(120, Short.MAX_VALUE))
+                .addContainerGap(93, Short.MAX_VALUE)
+                .addComponent(pnl_titulo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(199, 199, 199)
+                .addGroup(pnl_tela_inicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                    .addComponent(btn_play)
+                    .addComponent(btn_mult))
+                .addContainerGap(113, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -103,14 +128,12 @@ public class GUI extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btn_playActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_playActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_playActionPerformed
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btn_mult;
     public javax.swing.JButton btn_play;
+    public javax.swing.JComboBox<String> cb_tema;
     private javax.swing.JLabel lbl_titulo;
     public javax.swing.JPanel pnl_tela_inicial;
+    private javax.swing.JPanel pnl_titulo;
     // End of variables declaration//GEN-END:variables
 }
