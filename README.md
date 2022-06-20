@@ -1,2 +1,2 @@
 # Java
-Exercícios e aulas de EEEP RCR.
+Exercícios e trabalhos de Java da EEEP RCR.
